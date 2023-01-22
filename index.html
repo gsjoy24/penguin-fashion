@@ -4,8 +4,11 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Tailwind</title>
+		<title>Be Penguin</title>
+
+		<!-- ! tailwind cdn link -->
 		<script src="https://cdn.tailwindcss.com"></script>
+		<!-- ! custom css link -->
 		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
@@ -47,7 +50,7 @@
 		<main class="w-4/5 m-auto">
 			<!-- ! woman jacket -->
 			<section>
-				<h2 class="text-4xl text-center mb-12 md:text-left">woman jacket</h2>
+				<h2 class="text-5xl text-center mb-12 md:text-left">woman jackets</h2>
 				<!-- ! product container -->
 				<div class="grid md:grid-cols-2 lg:grid-cols-3 justify-center gap-4">
 					<!-- ! first product -->
@@ -115,7 +118,7 @@
 
 			<!-- ! men jacket -->
 			<section>
-				<h2 class="text-4xl text-center mb-12 md:text-left">men jacket</h2>
+				<h2 class="text-5xl text-center mb-12 md:text-left">men jackets</h2>
 
 				<!-- ! product container -->
 				<div class="grid md:grid-cols-2 lg:grid-cols-3 justify-center gap-4">
@@ -181,6 +184,55 @@
 				</div>
 				<!-- ! end product container -->
 			</section>
+
+			<!-- ! feature section -->
+			<section class="grid lg:grid-cols-2 gap-x-14 gap-y-5 items-center">
+				<!-- ! first feature -->
+				<div
+					class="flex flex-col md:flex-row text-center md:text-left items-center justify-center gap-5 p-8 shadow-xl rounded-2xl order-2 lg:order-1"
+				>
+					<div>
+						<img class="w-24 mb-5 md:mb-0" src="icons/image 12.png" alt="home" />
+					</div>
+					<div>
+						<h3 class="text-3xl mb-2">Find the Perfect Fit</h3>
+						<p class="text-sm">Everybody is different, which is why we offer styles for every body.</p>
+					</div>
+				</div>
+				<!-- ! img  -->
+				<div class="row-span-3 order-1 lg:order-2 mb-12 lg:mb-0">
+					<img class="w-full" src="images/shopping.png" alt="shopping" />
+				</div>
+				<!-- ! second feature -->
+				<div
+					class="flex flex-col md:flex-row text-center md:text-left items-center justify-center gap-5 p-8 shadow-xl rounded-2xl order-3"
+				>
+					<div>
+						<img class="w-24 mb-5 md:mb-0" src="icons/image 13.png" alt="home" />
+					</div>
+					<div>
+						<h3 class="text-3xl mb-2">Free Exchanges</h3>
+						<p class="text-sm">One of the many reasons you can shop with peace of mind. Joy Bangla.</p>
+					</div>
+				</div>
+				<!-- ! third feature -->
+				<div
+					class="flex flex-col md:flex-row text-center md:text-left items-center justify-center gap-5 p-8 shadow-xl rounded-2xl order-3"
+				>
+					<div>
+						<img class="w-24 mb-5 md:mb-0" src="icons/image 14.png" alt="home" />
+					</div>
+					<div>
+						<h3 class="text-3xl mb-2">Contact Our Seller</h3>
+						<p class="text-sm">They are here to help you. That's quite literally what we pay them for.</p>
+					</div>
+				</div>
+			</section>
 		</main>
+
+		<footer class="p-10 bg-[#292b42] text-center">
+			<p class="text-gray-400">All rights reserved @2023</p>
+			<p class="text-gray-400">gour.joy24@gmail.com</p>
+		</footer>
 	</body>
 </html>
