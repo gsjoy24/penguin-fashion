@@ -1,0 +1,22 @@
+/* ! font from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/* ! all reset and reusable styles */
+h1,
+h2,
+h3 {
+	font-family: 'Bebas Neue', cursive;
+	color: #363958;
+}
+h4,
+h5 {
+	font-family: 'Roboto', sans-serif;
+	color: #363958;
+}
+p {
+	color: #3e3e3e;
+}
+section {
+	padding: 50px 0;
+}
